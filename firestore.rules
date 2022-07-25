@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /profits/{profits_id} { //capturing id inside document with {profits_id}
+      allow read, create, update: if request.auth != null;
+      
+    } 
+    match /transactions/{transactions_id} { //capturing id inside document with {transactions_id}
+      allow read, create, update, delete: if request.auth != null;
+      
+    }
+    }
+  }
+
+
+//users collection
+// - any authenticated user can read & create
+// - only users who "own/created" a document can update it (user id's match)
+
+//projects collection
+// - any authenticated user can read, create & update a document 
+// - only users who "own/created" a document can delete it
