@@ -1,20 +1,21 @@
-.container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  max-width: 85%;
-  margin: auto;
-}
 .content {
   padding-right: 0px;
 }
-.sidebar {
-  padding-left: 30px;
-  min-width: 330px;
-  box-sizing: border-box;
+.container {
   display: flex;
+}
+.spanSidebar .sidebar {
+  padding-left: 30px;
+  box-sizing: border-box;
   flex-wrap: wrap;
 }
+
+.formBar {
+  display: inline-block;
+}
+
 .sidebar form {
+  flex-direction: column;
   padding: 20px;
   background: #1f9751;
   border-radius: 10px;
@@ -22,7 +23,7 @@
 
 .sidebar input {
   display: block;
-  width: 100%;
+
   padding: 10px;
   margin-top: 8px;
   box-sizing: border-box;
@@ -68,7 +69,6 @@
 
 /* transactions */
 .transactions div {
-  min-width: 450px;
   margin: 15px 20% 0 5%;
   border: 1px solid #f2f2f2;
   box-shadow: 2px 3px 5px rgba(50, 50, 50, 0.1);
@@ -79,7 +79,7 @@
   overflow: hidden;
   border-left: 4px solid #1f9751;
   border-radius: 0.3em 0.3em;
-  width: 72%;
+  width: auto;
 }
 
 .transactions .profitsCard {
@@ -91,6 +91,7 @@
   display: flex;
   flex-direction: row;
   max-width: 100%;
+  width: auto;
   margin-right: 2rem;
   justify-content: space-between;
 }
@@ -99,7 +100,7 @@
   display: flex;
   min-width: none;
   color: #777;
-  max-width: 800px;
+  /* max-width: 800px; */
   text-shadow: 0.5px 0.5px 1px black;
   padding-right: 10%;
   font-size: 1.3em;
@@ -107,6 +108,7 @@
 }
 .transactions .section1 {
   cursor: pointer;
+  width: auto;
   padding: 0.4rem 0 0.25rem 2rem;
 }
 .transactions .asin {
@@ -153,11 +155,11 @@
   margin-left: 17%;
 }
 
-@media screen and (max-width: 1550px) and (min-width: 1230px) {
+/* @media screen and (max-width: 1550px) and (min-width: 1230px) {
   .header1 {
     margin-left: 21%;
   }
-}
+} */
 
 /* profits */
 
@@ -178,6 +180,7 @@
   border-radius: 0 0.75% 1% 0;
   padding: 1rem;
   max-width: 100%;
+  width: auto;
 }
 
 .profits section {
@@ -225,6 +228,7 @@
 
 .profits form {
   width: 100%;
+  min-width: none;
   max-width: 1600px;
   font-weight: 250;
 }
@@ -235,10 +239,11 @@ h4 {
 }
 
 .profits span {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   text-align: justify;
+  min-width: none;
 }
 
 .profits input,
@@ -296,6 +301,7 @@ h4 {
 .profitsCard .fees {
   font-weight: 200;
 }
+
 .profitsCard .netProfit {
   color: #544;
   text-decoration: overline;
@@ -312,4 +318,45 @@ h4 {
   display: flex;
   flex-direction: row;
   width: 90%;
+}
+
+@media screen and (max-width: 872px) {
+  .container {
+    display: flex;
+    flex: 1 1 30rem;
+    flex-wrap: wrap-reverse;
+    font-size: calc(1.2rem + 0.4vw);
+    align-items: center;
+    justify-content: center;
+    max-width: 872px;
+    margin: 0.2rem;
+    width: auto;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .section1,
+  .container div,
+  .transactions li {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 0.3rem;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .transactions button {
+    font-weight: 500;
+  }
+
+  .sidebar,
+  .sidebar form,
+  .sidebar form input,
+  .formBar .sidebar span {
+    display: flex;
+
+    min-width: 10px;
+    width: 100%;
+  }
 }

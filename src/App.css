@@ -1,0 +1,9 @@
+.App {
+  max-width: 100vw;
+  position: relative;
+}
+
+body {
+  display: grid;
+  grid-template-columns: auto;
+}

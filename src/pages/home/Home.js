@@ -29,11 +29,11 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
+      <div>
         {error && <p>{error}</p>}
         {documents && <TransactionList transactions={documents} />}
       </div>
-      <section>
+      <section className={styles.formBar}>
         <h3 className={styles.header1}>Add a Transaction</h3>
         <div className={styles.sidebar}>
           <TransactionForm uid={user.uid} />

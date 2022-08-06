@@ -1,5 +1,7 @@
 /* navbar styles */
 .navbar {
+  min-width: none;
+  overflow: visible;
   width: 100%;
   background: #effaf0;
   padding: 20px 10px;
@@ -7,9 +9,10 @@
 }
 .navbar ul {
   display: flex;
-  flex-wrap: nowrap;
   margin: 0 10% 0 10%;
+  font-size: calc(0.75rem + 0.7vw);
   max-width: 1410px;
+  min-width: 0px;
   align-items: center;
 }
 .title {
@@ -29,6 +32,6 @@
 
 @media screen and (max-width: 550px) {
   .navbar {
-    width: auto;
+    width: 100%;
   }
 }

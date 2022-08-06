@@ -19,7 +19,7 @@ export default function SingleTransaction({ transaction }) {
 
   return (
     <>
-      <div className={styles.transactions} type="button">
+      <div className={styles.card} type="button">
         <section className={styles.section1} onClick={handleClick}>
           <h3 className={styles.amount}>${transaction.amount}</h3>
           <span className={styles.name}>{transaction.name}</span>
