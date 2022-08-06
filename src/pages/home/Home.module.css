@@ -340,7 +340,7 @@ h4 {
   .transactions li {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0.1rem;
     margin-right: 0.3rem;
     max-width: 100%;
     width: 100%;
@@ -355,7 +355,6 @@ h4 {
   .sidebar form input,
   .formBar .sidebar span {
     display: flex;
-
     min-width: 10px;
     width: 100%;
   }
