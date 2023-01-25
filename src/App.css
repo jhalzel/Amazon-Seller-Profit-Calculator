@@ -4,6 +4,7 @@
 }
 
 body {
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
 }

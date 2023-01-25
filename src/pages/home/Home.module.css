@@ -3,8 +3,12 @@
 }
 .container {
   display: flex;
+  justify-content: space-evenly;
 }
 .spanSidebar .sidebar {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   padding-left: 30px;
   box-sizing: border-box;
   flex-wrap: wrap; 
@@ -23,7 +27,6 @@
 
 .sidebar input {
   display: block;
-
   padding: 10px;
   margin-top: 8px;
   box-sizing: border-box;
@@ -69,17 +72,15 @@
 
 /* transactions */
 .transactions div {
-  margin: 15px 20% 0 5%;
+  position: relative;
   border: 1px solid #f2f2f2;
   box-shadow: 2px 3px 5px rgba(50, 50, 50, 0.1);
-  padding: 0.4rem 0 0 0;
+  /* padding: 0.4rem 0 0 0; */
   display: flex;
   flex-direction: column;
-  position: relative;
   overflow: hidden;
   border-left: 4px solid #1f9751;
-  border-radius: 0.3em 0.3em;
-  width: auto;
+  border-radius: 0.5em 0.5em;
 }
 
 .transactions .profitsCard {
@@ -119,7 +120,6 @@
   position: relative;
   margin-right: 2rem;
   text-shadow: 0.5px 0.5px 1px black;
-
   color: #777;
   float: inline-end;
   font-weight: 400;
@@ -142,10 +142,11 @@
 }
 
 .header {
+  position: relative;
   color: #1f9751;
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-left: 30%;
+  text-align: center;
 }
 .header1 {
   color: #1f9751;
@@ -153,6 +154,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  align-items: center;
 }
 
 /* @media screen and (max-width: 1550px) and (min-width: 1230px) {
@@ -323,27 +325,24 @@ h4 {
 @media screen and (max-width: 872px) {
   .container {
     display: flex;
+    margin-right: auto;
     flex: 1 1 30rem;
     flex-wrap: wrap-reverse;
     font-size: calc(1.2rem + 0.4vw);
-    align-items: center;
-    justify-content: center;
-    max-width: 872px;
-    margin: 0.2rem;
-    width: auto;
-    overflow-x: hidden;
-    position: relative;
+    
   }
 
   .section1,
   .container div,
   .transactions li {
     display: flex;
-    flex-direction: column;
-    margin: 0.1rem;
-    margin-right: 0.3rem;
-    max-width: 100%;
+    margin-right: 7%;
+    align-items: stretch;
     width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
 
   .transactions button {
