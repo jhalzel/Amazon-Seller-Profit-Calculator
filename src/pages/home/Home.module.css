@@ -7,7 +7,7 @@
 .spanSidebar .sidebar {
   padding-left: 30px;
   box-sizing: border-box;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 .formBar {
@@ -152,7 +152,7 @@
   position: static;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 17%;
+  text-align: center;
 }
 
 /* @media screen and (max-width: 1550px) and (min-width: 1230px) {
