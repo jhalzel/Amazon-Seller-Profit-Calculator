@@ -17,7 +17,7 @@ export default function Info() {
                 <div className={styles.infocontent}>
                     <h2>About</h2>
                     <p>This webpage is to be used to calculate and keep track of changes of your profits and margin for Amazon Sellers</p>
-                    <button onClick={()=> setShowModal(false)}>x</button>
+                    <button className={styles.innerButton} onClick={()=> setShowModal(false)}>x</button>
                 </div>
             </section> 
         )}

@@ -29,20 +29,22 @@ export default function Home() {
   // useEffect(() => console.log("documents:", documents));
 
   return (
-    <div className={styles.container}>
-      <div>
-        {error && <p>{error}</p>}
-        {documents && <TransactionList transactions={documents} />}
-      </div>
-      <section className={styles.formBar}>
-      <div>
+    <>
+      <div className={styles.Info}>
         <Info/>
       </div>
-        <h3 className={styles.header1}>Add a Transaction</h3>
-        <div className={styles.sidebar}>
-          <TransactionForm uid={user.uid} />
+      <div className={styles.container}>
+        <div>
+          {error && <p>{error}</p>}
+          {documents && <TransactionList transactions={documents} />}
         </div>
-      </section>
-    </div>
+        <section className={styles.formBar}>
+          <h3 className={styles.header1}>Add a Transaction</h3>
+          <div className={styles.sidebar}>
+            <TransactionForm uid={user.uid} />
+          </div>
+        </section>
+      </div>
+    </>
   );
 }

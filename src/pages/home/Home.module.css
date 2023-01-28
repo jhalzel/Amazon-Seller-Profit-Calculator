@@ -1,6 +1,42 @@
 .content {
   padding-right: 0px;
 }
+
+.Info {
+  position: fixed;
+  left: 0;
+  top: 5%;
+  
+  padding: 6px 0px;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  transform: translateY(50%);
+  width: 90%;
+  height: 100px;
+}
+
+.Info p, h2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(10%);
+}
+
+.Info button {
+  position: fixed;
+  top: 5%;
+  left: 0;
+  background: #1f9751;
+  color: white;
+  position: fixed;
+  padding: 6px 0px;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  width: 50px;
+  height: 100px;
+}
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -17,6 +53,10 @@
 .formBar {
   display: inline-block;
 }
+
+
+
+
 
 .sidebar form {
   flex-direction: column;
