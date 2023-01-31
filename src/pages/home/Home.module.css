@@ -4,38 +4,59 @@
 
 .Info {
   position: fixed;
+  z-index: 3;
   left: 0;
-  top: 5%;
-  
+  top: -50%;
   padding: 6px 0px;
   border-radius: 0px 5px 5px 0px;
   border: none;
   transform: translateY(50%);
-  width: 90%;
-  height: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.Info section {
+  position: relative;
+  flex-direction: row;
+  overflow: hidden;
+  /* z-index: 13; */
+  top: 1.5rem;
+  animation: slideOutLeft 1s ease;
+  background-color: lightblue;
+  width: 100%;
 }
 
 .Info p, h2 {
   display: flex;
-  position: relative;
   justify-content: center;
-  align-items: center;
-  transform: translateX(10%);
+  text-align: center;
+  animation: slideOutLeft 1s ease-in-out;
+  left: 5%;
 }
 
 .Info button {
-  position: fixed;
+  z-index: 1;
   top: 5%;
   left: 0;
   background: #1f9751;
   color: white;
-  position: fixed;
+  position: relative;
   padding: 6px 0px;
   border-radius: 0px 5px 5px 0px;
   border: none;
   width: 50px;
-  height: 100px;
+  top: -50%;
+  
 }
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+} 
 
 .container {
   display: flex;
