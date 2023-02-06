@@ -2,7 +2,12 @@
   padding-right: 0px;
 }
 
-.Info {
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ .container .Info {
   position: fixed;
   z-index: 3;
   left: 0;
@@ -15,39 +20,43 @@
   height: 100%;
 }
 
+
 .Info section {
-  position: relative;
+  position: fixed;
   flex-direction: row;
   overflow: hidden;
-  /* z-index: 13; */
+  z-index: 1;
   top: 1.5rem;
-  animation: slideOutLeft 1s ease;
   background-color: lightblue;
   width: 100%;
+  top: auto;
 }
 
-.Info p, h2 {
+
+.Info p, h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  animation: slideOutLeft 1s ease-in-out;
+  animation: slideOutLeft 1s ease;
   left: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
 }
 
 .Info button {
-  z-index: 1;
-  top: 5%;
+  cursor: pointer;
+  position: fixed;
+  z-index: 3;
+  top: auto;
   left: 0;
   background: #1f9751;
   color: white;
-  position: relative;
   padding: 6px 0px;
   border-radius: 0px 5px 5px 0px;
   border: none;
   width: 50px;
-  top: -50%;
-  
-}
+  }
 
 @keyframes slideOutLeft {
   from {
@@ -58,10 +67,9 @@
   }
 } 
 
-.container {
-  display: flex;
-  justify-content: space-evenly;
-}
+
+
+
 .spanSidebar .sidebar {
   align-items: center;
   text-align: center;
@@ -74,9 +82,6 @@
 .formBar {
   display: inline-block;
 }
-
-
-
 
 
 .sidebar form {
@@ -236,6 +241,7 @@
 }
 
 .section2 {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -290,6 +296,7 @@
 }
 
 .profits form {
+  cursor: default;
   width: 100%;
   min-width: none;
   max-width: 1600px;
@@ -303,6 +310,7 @@ h4 {
 
 .profits span {
   /* width: 100%; */
+  cursor: auto;
   display: flex;
   justify-content: space-between;
   text-align: justify;
@@ -312,7 +320,7 @@ h4 {
 .profits input,
 .profits select {
   max-width: 30%;
-  cursor: pointer;
+  cursor: text;
   border: 0;
   border-radius: 4px;
   color: #777;
