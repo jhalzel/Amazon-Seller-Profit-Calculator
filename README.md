@@ -12,7 +12,7 @@ Input costs, including cost of goods sold (COGS) and shipping costs.
 Calculates estimated profit for FBA and FBM sales based on user inputs.
 Stores product information and profit estimates for future reference.
 Installation
-To use the FBA/FBM Profit Calculator, simply visit the website [INSERT WEBSITE URL HERE] in your web browser.
+To use the FBA/FBM Profit Calculator, simply visit the website https://fba-profit-tracker.web.app/login in your web browser.
 
 Usage
 -----
