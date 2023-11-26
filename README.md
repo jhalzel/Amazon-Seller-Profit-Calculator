@@ -17,11 +17,13 @@ To use the FBA/FBM Profit Calculator, simply visit the [website](https://fba-pro
 <!-- Usage -->
 ## Usage
 
-1. **Input product information, including name, description, and category:**
+1. <b style="font-size: larger;">Input product information, including name, description, and category:</b>
    ![Product Information](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/4a5bb025-f25f-46a6-9990-e7848ccece03)
 
-2. **Input fees, including Amazon referral fees, FBA fees, and FBM fees:**
+   <b style="font-size: larger;">Card is added to collection to keep track of item's profit margins:</b>
    ![Fees](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/f63fd6bd-8617-4d6d-9e53-c265d1fd180b)
+
+2. **Input fees, including Amazon referral fees, FBA fees, and FBM fees:**
    ![More Fees](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/5b0b8d8d-baf4-425b-b907-169d865586fc)
 
 3. **Input costs, including COGS and shipping costs:**
