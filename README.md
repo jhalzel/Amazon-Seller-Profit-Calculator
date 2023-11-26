@@ -16,20 +16,24 @@ To use the FBA/FBM Profit Calculator, simply visit the website https://fba-profi
 
 Usage
 -----
-Input product information, including name, description, and category.
-![Screenshot 2023-11-26 at 1 59 49 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/78a8eabe-e106-4e32-8444-055dd592726b)
+Input product information, including name, description, and category:
+![Screenshot 2023-11-26 at 2 08 31 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/4a5bb025-f25f-46a6-9990-e7848ccece03)
 
 
-Input fees, including Amazon referral fees, FBA fees, and FBM fees.
-![Screenshot 2023-11-26 at 2 01 08 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/c0342e51-97e9-4f99-9fa2-93d5532f8f09)
+Input fees, including Amazon referral fees, FBA fees, and FBM fees:
+![Screenshot 2023-11-26 at 2 12 37 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/f63fd6bd-8617-4d6d-9e53-c265d1fd180b)
+![Screenshot 2023-11-26 at 2 16 14 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/5b0b8d8d-baf4-425b-b907-169d865586fc)
 
 
-Input costs, including COGS and shipping costs.
-![Screenshot 2023-11-26 at 2 01 17 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/c9c0b22d-b024-4bb0-90ab-73b7b0327de5)
+Input costs, including COGS and shipping costs:
+![Screenshot 2023-11-26 at 2 17 09 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/fc4092da-8266-4a9e-8376-836b4c3117e4)
 
 
-Click the "Calculate" button to calculate estimated profit for FBA and FBM sales.
-![Screenshot 2023-11-26 at 2 01 50 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/d0866b6b-dcf1-415e-8284-5c97cb39b146)
+Click the "Calculate" button to calculate estimated profit for FBA and FBM sales:
+[Screenshot 2023-11-26 at 2 21 20 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/d4b6a49d-9333-454b-866a-e24b2f3d277a)
+
+Card is updated with details easy to view at a moment's glance:
+![Screenshot 2023-11-26 at 2 22 10 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/582b871a-9af6-4779-ac28-82839997c036)
 
 
 
@@ -39,7 +43,6 @@ The FBA/FBM Profit Calculator was built using the following technologies:
 
 •HTML
 •CSS
+•JSX
 •ReactJS
-•Firebase
-
-If you would like to contribute to the FBA/FBM Profit Calculator, please contact jhalzel@umass.edu.
+•Firebase Database
