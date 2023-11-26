@@ -14,23 +14,23 @@ The **FBA/FBM Profit Calculator** is a web application that helps Amazon sellers
 ## Installation
 
 To use the FBA/FBM Profit Calculator, simply visit the [website](https://fba-profit-tracker.web.app/login) in your web browser.
-
+<!-- Usage -->
 ## Usage
 
-1. Input product information, including name, description, and category:
+1. **Input product information, including name, description, and category:**
    ![Product Information](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/4a5bb025-f25f-46a6-9990-e7848ccece03)
 
-2. Input fees, including Amazon referral fees, FBA fees, and FBM fees:
+2. **Input fees, including Amazon referral fees, FBA fees, and FBM fees:**
    ![Fees](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/f63fd6bd-8617-4d6d-9e53-c265d1fd180b)
    ![More Fees](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/5b0b8d8d-baf4-425b-b907-169d865586fc)
 
-3. Input costs, including COGS and shipping costs:
+3. **Input costs, including COGS and shipping costs:**
    ![Costs](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/fc4092da-8266-4a9e-8376-836b4c3117e4)
 
-4. Click the "Calculate" button to calculate estimated profit for FBA and FBM sales:
+4. **Click the "Calculate" button to calculate estimated profit for FBA and FBM sales:**
    ![Calculate](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/d4b6a49d-9333-454b-866a-e24b2f3d277a)
 
-5. Card is updated with details easy to view at a moment's glance:
+5. **Card is updated with details easy to view at a moment's glance:**
    ![Updated Card](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/582b871a-9af6-4779-ac28-82839997c036)
 
 ## Technologies Used
