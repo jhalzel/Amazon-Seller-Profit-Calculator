@@ -17,10 +17,20 @@ To use the FBA/FBM Profit Calculator, simply visit the website https://fba-profi
 Usage
 -----
 Input product information, including name, description, and category.
+![Screenshot 2023-11-26 at 1 59 49 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/78a8eabe-e106-4e32-8444-055dd592726b)
+
+
 Input fees, including Amazon referral fees, FBA fees, and FBM fees.
+![Screenshot 2023-11-26 at 2 01 08 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/c0342e51-97e9-4f99-9fa2-93d5532f8f09)
+
+
 Input costs, including COGS and shipping costs.
+![Screenshot 2023-11-26 at 2 01 17 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/c9c0b22d-b024-4bb0-90ab-73b7b0327de5)
+
+
 Click the "Calculate" button to calculate estimated profit for FBA and FBM sales.
-Optionally, click the "Save" button to save the product information and profit estimates for future reference.
+![Screenshot 2023-11-26 at 2 01 50 PM](https://github.com/jhalzel/Amazon-Seller-Profit-Calculator/assets/53026637/d0866b6b-dcf1-415e-8284-5c97cb39b146)
+
 
 
 Technologies Used
